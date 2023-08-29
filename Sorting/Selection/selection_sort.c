@@ -1,5 +1,5 @@
 #include "private.h"
-#include <stdio.h>
+
 void selection_sort(signed long *arr, unsigned long size, unsigned char sort_type)
 {
 

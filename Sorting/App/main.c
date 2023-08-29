@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../Selection/selection_sort.h"
+#include "../Bubble/bubble_sort.h"
 void print_array(int *arr, int size);
 
 int main(void)
@@ -10,12 +10,12 @@ int main(void)
 	printf("Array before sorting\n");
 	print_array(arr, size);
 	
-	selection_sort((signed long *)arr, (unsigned long) size, ASCENDING_SORT);
+	bubble_sort((signed long *)arr, (unsigned long) size, ASCENDING_SORT);
 	
 	printf("Array after ascending sorting\n");
 	print_array(arr, size);
 	
-	selection_sort((signed long *)arr, (unsigned long) size, DESCENDING_SORT);
+	bubble_sort((signed long *)arr, (unsigned long) size, DESCENDING_SORT);
 	
 	printf("Array after descending sorting\n");
 	print_array(arr, size);
