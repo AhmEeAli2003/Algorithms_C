@@ -1,4 +1,4 @@
-#include "private.h"
+#include "sel_private.h"
 
 void selection_sort(signed long *arr, unsigned long size, unsigned char sort_type)
 {

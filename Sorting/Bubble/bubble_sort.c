@@ -1,4 +1,4 @@
-#include "private.h"
+#include "bub_private.h"
 
 void bubble_sort(signed long *arr, unsigned long size, unsigned char sort_type)
 {

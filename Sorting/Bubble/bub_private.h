@@ -1,5 +1,5 @@
-#ifndef PRIVATE_H
-#define PRIVATE_H
+#ifndef BUB_PRIVATE_H
+#define BUB_PRIVATE_H
 
 #define FALSE   0
 #define TRUE    1
